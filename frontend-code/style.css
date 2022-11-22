@@ -60,3 +60,235 @@ body {
     color: var(--cream-white-color);
 }
 /* End of Buttons */
+
+/* Desktop View */
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    margin: 0;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav .logo-text {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+}
+/* End Header Section */
+
+/* Main Section */
+/* Business Section */
+.business {
+    display: flex;
+    gap: 285px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    margin-top: 67px;
+}
+.business .mobile-hero, 
+.business .tablet-hero {
+    display: none;
+}
+.business .services {
+    position: relative;
+    
+}
+.business .services .image-hero {
+    position: absolute;
+    left: 474px;
+    top: 0;
+    z-index: -1;
+}
+.business .services .desktop-hero {
+    width: auto;
+}
+.business .services .curve-1 {
+    position: absolute;
+    left: 289px;
+    top: 50px;
+}
+.business .services h1 {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -1px;
+    color: var(--dark-blue-color);
+    margin-top: 103px;
+}
+.business .services h1 .bold {
+    font-weight: 700;
+}
+.business .services p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: var(--grey-color);
+    width: 350px;
+    margin-bottom: 50px;
+}
+.business .impressions {
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+    margin-top: 103px;
+    width: 190px;
+}
+.business .impressions h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: var(--dark-blue-color);
+    margin: 0;
+}
+.business .impressions span {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: var(--grey-color);
+}
+/* End of Business Section */
+
+/* Leadership Section */
+.leadership {
+    margin-top: 270px;
+    position: relative;
+    background: var(--dark-blue-color);
+    border-radius: 15px;
+    width: 100%;
+    height: 545px;
+}
+.leadership .left {
+    margin-left: 120px;
+}
+.leadership .jeremy {
+    position: absolute;
+    top: -22.5px;
+    left: 60px;
+}
+.leadership .jeremy-small {
+    display: none;
+}
+.leadership .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leadership .pattern-blur {
+    width: 416px;
+    margin-left: -20px;
+    margin-top: 100px;
+    
+}
+.leadership .curve-2 {
+    margin-top: -240px;
+    margin-right: 50px;
+    margin-left: -10px;
+}
+.leadership .right {
+    margin-top: -105px;
+    margin-right: 125px;
+    
+
+}
+.leadership .right h3 {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: var(--cream-white-color);
+}
+.leadership .content .right h3 .bold {
+    font-weight: 700;
+}
+.leadership .right p {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    color: var(--cream-color);
+    margin-bottom: 40px;
+}
+.leadership .content .right .ceo {
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: var(--cream-white-color);
+    text-transform: uppercase;
+}
+.leadership .content .right .role {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: var(--cream-color);
+    text-transform: uppercase;
+}
+/* End Leadership Section */
+
+/* Footer Section */
+footer {
+    margin-top: 95px;
+}
+footer .contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .logo {
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.444444px;
+    color: var(--dark-blue-color);
+}
+footer .copyright {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.0833333px;
+    color: var(--grey-color);
+}
+footer .socials {
+    display: flex;
+    gap: 28px;
+}
+footer .socials a:hover {
+    opacity: 0.5;
+}
+/* End of Footer */
+
+.background {
+    background: var(--cream-color);
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: 1220px;
+    z-index: -1;
+}
+/* End Desktop View */
+

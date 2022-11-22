@@ -1,0 +1,24 @@
+/* Root Colors */
+:root {
+    --dark-blue-color: #172339;
+    --grey-color: #49566D;
+    --cream-color: #F3EDE7;
+    --cream-white-color: #FAF8F6;
+    --purple-color: #A060FF;
+    --violet-color: #CB30E3;
+    --orange-color: #FFA84E;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Epilogue", sans-serif;
+    background-color: var(--cream-white-color);
+}

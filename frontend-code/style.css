@@ -292,3 +292,140 @@ footer .socials a:hover {
 }
 /* End Desktop View */
 
+
+/* Tablet Display */
+@media screen and (min-width: 768px) and (max-width:1115px) {
+    .wrapper {
+        padding: 0 40px;
+        max-width: 768px;
+    }
+    header {
+        margin: 0;
+        margin-top: 40px;
+    }
+    nav .logo-text {
+        display: none;
+    }
+
+    nav .logo img {
+        width: 80%;
+    }
+
+    /* Business Section */
+    .business {
+        flex-direction: column;
+        gap: 128px;
+    }
+    .business .desktop-hero img {
+        width: 281px;
+        height: 480px;
+    }
+
+    .business .services .image-hero {
+        left: 408px;
+    }
+
+    .business .services .curve-1 img {
+        width: 231px;
+    }
+
+    .business .services .curve-1 {
+        left: 223px;
+        top: 43px;
+    }
+    .business .services h1 {
+        margin: 0;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.777778px;
+        margin-top: 88px;
+        margin-bottom: 40px;
+    }
+    .business .services p {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.0888889px;
+        margin-bottom: 40px;
+    }
+    .business .impressions {
+        margin: 0;
+        flex-direction: row;
+        gap: 180px;
+        width: 689px;
+        text-align: center;
+
+    }
+    /* End Business Section */
+
+    /* Leadership Section */
+    .leadership {
+        margin: 0;
+        margin-top: 273px;
+        height: 685px;
+    }
+
+    .leadership .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leadership .jeremy-small {
+        display: block;
+        position: absolute;
+        left: 120px;
+        top: -90px;
+    }
+
+    .leadership .jeremy {
+        display: none;
+    }
+    .leadership .pattern-blur{ 
+        margin-left: -30px;
+        margin-top: -25px;
+        height: auto;
+        width: 310px;
+    }
+    .leadership .curve-2 {
+        margin: 0;
+        margin-top: -5px;
+    }
+    .leadership .curve-2 img {
+        width: 50px;
+    }
+    .leadership .right{
+        margin: 0;
+        text-align: center;
+    }
+    .leadership .right h3 {
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -0.416667px;
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+    .leadership .right p {
+        margin: 0;
+        padding: 0 58px;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.09px;
+        margin-bottom: 40px;
+    }
+    /* End Leadership Section */
+
+    /* Footer */
+    footer {
+        margin-top: 72px;
+    }
+    /* End footer */
+
+    .background {
+        height: 640px;
+        top: 1276px;
+        z-index: -1;
+    }
+
+}
+/* End Tablet Display */

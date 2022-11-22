@@ -22,3 +22,41 @@ body {
     font-family: "Epilogue", sans-serif;
     background-color: var(--cream-white-color);
 }
+
+/* Buttons */
+.btn {
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn.btn-primary {
+    padding: 15px 32px;
+    background: var(--dark-blue-color);
+    color: var(--cream-white-color);
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    display: block;
+    width: 256px;
+}
+
+.btn.btn-primary:hover {
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+}
+
+.btn.btn-secondary {
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    color: var(--dark-blue-color);
+    padding: 12px 24px;
+    border: 1px solid;
+}
+.btn.btn-secondary:hover {
+    background-color: var(--dark-blue-color);
+    color: var(--cream-white-color);
+}
+/* End of Buttons */

@@ -4,7 +4,7 @@
 
 This is a solution to AmaliTech's Training Phase 1 challenge.
 
-## Table of Contents
+## Getting Started
 - [Overview](#overview)
     - [Requirements](#requirements)
     - [Screenshots](#screenshots)
